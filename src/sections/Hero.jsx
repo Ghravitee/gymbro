@@ -66,7 +66,7 @@ const Hero = () => {
       <img
         src={mobileHero}
         alt="Meme 5"
-        className="lg:hidden absolute top-0 left-0 right-0 mx-auto"
+        className="lg:hidden absolute top-0 left-0 right-0 mx-auto mb-4"
       />
 
       {/* Main Hero Content with Framer Motion */}
@@ -81,7 +81,7 @@ const Hero = () => {
         </motion.h1>
 
         <motion.h3
-          className="uppercase font-semibold text-[2.5rem]"
+          className="uppercase font-semibold text-[2.5rem] text-center"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1.6 }}
