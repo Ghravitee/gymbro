@@ -13,7 +13,7 @@ const Hero = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("dyenamics228@gmail.com");
+    navigator.clipboard.writeText("oMPW3RjWvE7ACKj8m8TBwTN7ekHvSpRC8sa9Zjpump");
     setHasCopied(true);
 
     setTimeout(() => {
