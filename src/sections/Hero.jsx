@@ -70,7 +70,7 @@ const Hero = () => {
       />
 
       {/* Main Hero Content with Framer Motion */}
-      <div className="flex flex-col gap-4 items-center z-10 m-0">
+      <div className="flex flex-col gap-4 items-center z-10 mt-6">
         <motion.h1
           className="text-[6rem] bungee"
           initial={{ opacity: 0, scale: 0.8 }}
