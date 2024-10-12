@@ -21,7 +21,7 @@ const Hero = () => {
     }, 2000);
   };
   return (
-    <main className="h-screen relative flex items-center justify-center overflow-hidden mt-44">
+    <main className="h-screen relative flex items-center justify-center overflow-hidden mt-44 px-4">
       {/* Falling Images with Framer Motion */}
       <motion.img
         src={image1}

@@ -15,7 +15,7 @@ const Loader = () => (
     <img
       src={loader1}
       alt="Loading..."
-      className="aspect-square object-contain w-[40%]"
+      className="aspect-square object-contain w-[55%]"
     />
   </div>
 );

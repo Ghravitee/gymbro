@@ -21,7 +21,7 @@ const About = () => {
 
   return (
     <section
-      className=" bg-black py-16 md:pt-32 md:pb-16 px-6"
+      className=" bg-black pt-16 pb-8 md:pt-32 md:pb-16 px-3"
       ref={ref}
       id="about"
     >
@@ -60,7 +60,7 @@ const About = () => {
               animate={inView ? { opacity: 1, y: 0 } : {}} // Animate to original position and full opacity
               transition={{ duration: 0.5, delay: 1.4 }} // Animation duration and delay
             >
-              <h2 className="text-3xl md:text-[1.7rem]">About us</h2>
+              <h2 className="text-3xl md:text-[1.7rem]">About</h2>
               <div className="w-[25%] h-1 absolute bottom-0 bg-white left-1/2 lg:left-0 transform -translate-x-1/2 md:translate-x-0" />
             </motion.div>
 
