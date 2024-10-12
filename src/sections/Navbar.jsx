@@ -22,7 +22,11 @@ const Navbar = () => {
         <div className="h-full flex items-center">
           <motion.a
             href="#about"
-            whileHover={{ scale: 1.05, backgroundColor: "#0e9c7d" }}
+            whileHover={{
+              scale: 1.05,
+              backgroundColor: "#000000",
+              color: "#ffffff",
+            }}
             transition={{ duration: 0.3 }}
             className="h-full py-3 px-[3rem] border-l-[8px] border-l-black text-[1.2rem] font-bold bg-white"
           >
@@ -30,7 +34,11 @@ const Navbar = () => {
           </motion.a>
           <motion.a
             href="#roadmap"
-            whileHover={{ scale: 1.05, backgroundColor: "#0e9c7d" }}
+            whileHover={{
+              scale: 1.05,
+              backgroundColor: "#000000",
+              color: "#ffffff",
+            }}
             transition={{ duration: 0.3 }}
             className="h-full py-3 px-[3rem] border-l-[8px] border-l-black text-[1.2rem] font-bold bg-white"
           >
