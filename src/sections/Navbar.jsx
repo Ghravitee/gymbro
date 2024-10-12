@@ -20,39 +20,42 @@ const Navbar = () => {
       <nav className="hidden lg:flex lg:justify-between lg:items-center h-full">
         <p className="text-3xl bungee">$GYM</p>
         <div className="h-full flex items-center">
-          <motion.button
+          <motion.a
+            href="#about"
             whileHover={{ scale: 1.05, backgroundColor: "#0e9c7d" }}
             transition={{ duration: 0.3 }}
-            className="h-full py-0 px-[3rem] border-l-[8px] border-l-black text-[1.2rem] font-bold bg-white"
+            className="h-full py-3 px-[3rem] border-l-[8px] border-l-black text-[1.2rem] font-bold bg-white"
           >
             ABOUT
-          </motion.button>
-          <motion.button
+          </motion.a>
+          <motion.a
+            href="#roadmap"
             whileHover={{ scale: 1.05, backgroundColor: "#0e9c7d" }}
             transition={{ duration: 0.3 }}
-            className="h-full py-0 px-[3rem] border-l-[8px] border-l-black text-[1.2rem] font-bold bg-white"
+            className="h-full py-3 px-[3rem] border-l-[8px] border-l-black text-[1.2rem] font-bold bg-white"
           >
             ROADMAP
-          </motion.button>
-          <motion.button
+          </motion.a>
+          <motion.a
+            href="#socials"
             whileHover={{
               scale: 1.05,
               backgroundColor: "#000000",
               color: "#ffffff",
             }}
             transition={{ duration: 0.3 }}
-            className="h-full py-0 px-[3rem] border-l-[8px] border-l-black text-[1.2rem] font-bold bg-white"
+            className="h-full py-3 px-[3rem] border-l-[8px] border-l-black text-[1.2rem] font-bold bg-white"
           >
             SOCIALS
-          </motion.button>
+          </motion.a>
 
-          <motion.button
+          <motion.a
             whileHover={{ scale: 1.05, backgroundColor: "#000000" }}
             transition={{ duration: 0.3 }}
-            className="h-full py-0 px-[3rem] border-r-[8px] border-r-black border-l-[8px] border-l-black text-[1.2rem] font-bold bg-black text-white"
+            className="h-full py-3 px-[3rem] border-r-[8px] border-r-black border-l-[8px] border-l-black text-[1.2rem] font-bold bg-black text-white"
           >
             BUY NOW
-          </motion.button>
+          </motion.a>
         </div>
       </nav>
       <div className="flex items-center justify-between lg:hidden py-4">

@@ -14,7 +14,7 @@ const Socials = () => {
   }, []);
 
   return (
-    <div className="py-20 md:py-20 lg:py-32">
+    <div className="py-20 md:py-20 lg:py-32" id="socials">
       <div className="container">
         {/* Mobile heading animation */}
         <div

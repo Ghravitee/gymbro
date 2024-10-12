@@ -5,7 +5,7 @@ import roadmapImage1 from "../assets/roadmap-image-1.png";
 
 const Roadmap = () => {
   return (
-    <section className="py-10 md:py-20 lg:py-32 bg-black">
+    <section className="py-10 md:py-20 lg:py-32 bg-black" id="roadmap">
       <div className="hidden md:block max-w-[1200px] mx-auto px-4">
         <div className="relative mb-10 md:mb-20 w-full md:w-[30%] h-6 flex justify-center items-center mx-auto">
           <h2 className="text-[1.5rem] md:text-[2rem] lg:text-[3rem] uppercase bungee text-white">
