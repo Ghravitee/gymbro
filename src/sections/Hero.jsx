@@ -89,15 +89,15 @@ const Hero = () => {
           Buy hard or Go Home
         </motion.h3>
 
-        <div
+        {/* <div
           className="copy-container cursor-pointer flex items-center gap-2"
           onClick={handleCopy}
         >
           <img src={hasCopied ? checkedIcon : copyIcon} alt="copy" />
-          {/* <p className="text-xl font-medium md:text-xl lg:text-3xl break-all">
+          <p className="text-xl font-medium md:text-xl lg:text-3xl break-all">
             CA: voMPW3RjWvE7ACKj8m8TBwTN7ekHvSpRC8sa9Zjpump
-          </p> */}
-        </div>
+          </p>
+        </div> */}
 
         <motion.a
           initial={{ opacity: 0, y: 20 }}
