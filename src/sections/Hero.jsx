@@ -95,7 +95,7 @@ const Hero = () => {
         >
           <img src={hasCopied ? checkedIcon : copyIcon} alt="copy" />
           <p className="text-xl font-medium md:text-xl lg:text-3xl break-all">
-            CA: 9mHX7EVstzhAm5LEMzxFQZahjkFMeeo4ovvSXPA9pump
+            CA: voMPW3RjWvE7ACKj8m8TBwTN7ekHvSpRC8sa9Zjpump
           </p>
         </div>
 

@@ -51,7 +51,7 @@ const Socials = () => {
         {/* Social icons with AOS bounce animation */}
         <div className="flex gap-3 items-center justify-center">
           <a
-            href="#"
+            href="https://x.com/gymbrosolana?s=21"
             className="hover:shadow-none transition duration-300 shadow-[-1px_2px_0px_2px_#000000] w-20 h-20 rounded-full bg-black flex justify-center items-center"
             data-aos="zoom-in"
             data-aos-duration="1000"
@@ -61,7 +61,7 @@ const Socials = () => {
             <RiTwitterXFill color="white" className="rounded-full text-4xl" />
           </a>
           <a
-            href="#"
+            href="https://t.me/gymbro_solana"
             className="hover:shadow-none transition duration-300 shadow-[-1px_2px_0px_2px_#000000] w-20 h-20 rounded-full bg-black flex justify-center items-center"
             data-aos="zoom-in"
             data-aos-duration="1000"
